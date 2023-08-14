@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="css/stylesheet.css">
 
     <title>Odin Project</title>
 </head>
 <body>
-    <section>
-        <header>
-            <nav>
-                <a href="#">Header Logo<img src="#" alt=""></a>
-                <a href="#">header link one</a>
-                <a href="#">header link two</a>
-                <a href="#">header link three</a>
-            </nav>
-        </header>
-    </section>
-
-    <section>
-        <div class="container-1">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button id="button-1" type="button">Sign up</button>
+    <div class="container-sec-1">
+        <div class="container-main-1">
+            <header>
+                <nav>
+                    <div class="nav-logo">
+                    <h1>Header Logo</h1>
+                    </div>
+                    <div class="nav-links">
+                    <a href="#">header link one</a>
+                    <a href="#">header link two</a>
+                    <a href="#">header link three</a>       
+                    </div>        
+                </nav>
+            </header>
+        </div>
+        
+            <div class="container-1">
+                <div class="inner-container">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button id="button-1" type="button">Sign up</button>
+                </div>
                 <div class="container-2">
                     <img src="#" alt="placeholder">
                 </div>
-        </div>
-    </section>
-
-    <section>
+            </div>
+    </div>        
         <div class="container-2">    
             <h2>Some random information.</h2>
                 <div class="test-1">
@@ -61,9 +66,7 @@
                     </p>
                 </div>
         </div>
-    </section>
 
-    <section>
         <div class="container-3">
             <p>
                 This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
@@ -72,19 +75,21 @@
                 </span>
             </p>
         </div>
-    </section>
 
-    <section>
         <div class="container-4">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for ourn product by clicking that button right over there!</p>
-            <button id="button-2" type="button">Sign Up</button>
+            <div class="inner-container-4">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for ourn product by clicking that button right over there!</p>
+            </div>
+            <div class="button">
+                <button id="button-2" type="button">Sign Up</button>
+            </div>
         </div>
-    </section>
-    <section>
+
+    <div class="footer-1">
         <footer>
             <p>Copyright © The Odin Project 2023</p>
         </footer>
-    </section>
+    </div>
 </body>
 </html>
