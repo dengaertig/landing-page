@@ -9,6 +9,7 @@
     justify-content: center;
     background-color: #1f2937;
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 nav {
@@ -19,6 +20,30 @@ a {
     padding: 0px 20px 0px 20px;
     color: white;
     text-decoration: none;
+}
+
+.container-1 .inner-container p, h1{
+   margin: 0;
+   padding: 5px;
+   color: white;
+}
+
+.container-1 .inner-container p{
+     font-size: 18px !important;
+ }
+
+.container-1 .inner-container #button-1 {
+    margin-top: 15px;
+    background-color: #3882F6;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
 }
 
 .nav-links {
@@ -36,14 +61,66 @@ a {
     flex-direction: row;
     justify-content: center;
     background-color: #1f2937;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
+
 }
 
 .container-2 {
     display:flex;
+    margin: 50px;
+    flex-direction: column;
+}
+
+.container-2-inf {
+    display:flex;
+    margin: 40px 200px 60px 200px;
+    flex-direction: column;
+}
+.column-img {
+    display: flex;
+    align-self: center;
+    gap: 100px;
+}
+
+.container-h2 {
+    align-self: center;
+    margin-bottom: 50px;
 }
 
 .container-1 .inner-container {
-    padding-right: 34rem;
-    width: 550px;
+    margin-right: 11rem;
+    margin-top: 70px;
+    width: 450px;
+}
+
+.container-1 .inner-container h1 {
+    font-size: revert;
+}
+
+.test-1 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.blue-border {
+    display: flex;
+    border: #3882F6 solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.test-1 p {
+    width: 100px;
+    font-size: x-small;
+}
+
+img {
+    width: 600px;
+    height: 250px;
+    background-color: grey;
+    padding-left: 20px;
 }
