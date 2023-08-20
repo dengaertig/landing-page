@@ -108,14 +108,13 @@ a {
 .blue-border {
     display: flex;
     border: #3882F6 solid;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 
 .test-1 p {
-    width: 100px;
-    font-size: x-small;
+    width: 200px;
 }
 
 img {
@@ -123,4 +122,60 @@ img {
     height: 250px;
     background-color: grey;
     padding-left: 20px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+}
+
+.container-3 p {
+    padding: 150px 500px 150px 500px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.container-3 span {
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 100px 200px 100px 200px;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.inner-container-4 {
+    color: white;
+}
+
+.container-4 .button #button-2 {
+    margin-top: 40px;
+    margin-left: 250px;
+    background-color: #3882F6;
+    text-align: center;
+    border-radius: 8px;
+    border-color: white;
+    font-size: 16px;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-1 {
+    padding: 10px;
+    text-align-last: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.footer-1 p {
+    font-size:smaller;
 }
